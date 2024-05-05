@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+        }
+        .transport-type {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .transport-type img {
+            width: 100px;
+            height: 100px;
+        }
+        .transport-type .details {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transport Company</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+    </nav>
+    <div class="content">
+        <h2>Types of Transportation</h2>
+        <div class="transport-type">
+            <div>
+                <img src="car.png" alt="Car">
+                <div class="details">
+                    <h3>Car</h3>
+                    <p>Rate: $10 per km</p>
+                </div>
+            </div>
+            <div>
+                <img src="bike.png" alt="Bike">
+                <div class="details">
+                    <h3>Bike</h3>
+                    <p>Rate: $5 per km</p>
+                </div>
+            </div>
+        </div>
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2023 Transport Company. All rights reserved.
+    </footer>
+    <script>
+        // Add any JavaScript functionality here
+    </script>
+</body>
+</html>
